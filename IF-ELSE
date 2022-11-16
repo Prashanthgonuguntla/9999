@@ -1,0 +1,23 @@
+invest =int(input())
+if invest>1000:
+    print("Buy a shirt")
+else:
+    print("Buy a hoddie")
+print("Have a good day")
+
+Password validation:
+Example 1-
+password=input("pras@1997")
+if password>"pras@1997":
+    print("match")
+else:
+    print("Try Again")
+print("Have a Good day")
+
+Example 2-
+password =("pras")
+confirm_password=input()
+if password==confirm_password:
+    print("match")
+else:
+    print("Try again")
