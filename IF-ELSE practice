@@ -1,0 +1,14 @@
+# comparsion of average marks of two classes
+
+A_science=int(input())
+A_social=int(input())
+B_science=int(input())
+B_social=int(input())
+
+avg_classA=(A_science + A_social)/2
+avg_classB=(B_science + B_social)/2
+
+if avg_classA > avg_classB:
+    print("True")
+else:
+    print("False")
